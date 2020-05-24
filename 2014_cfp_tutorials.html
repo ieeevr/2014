@@ -1,0 +1,224 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Base Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>VR2014 | Call for Tutorials</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.10.2.min.js"></script>
+<script language="javascript">
+function StartMove() {
+	setInterval("MoveBackGround()",100);
+	window.cssXPos=0;
+}
+function MoveBackGround () {
+window.cssXPos=window.cssXPos+1;
+if (window.cssXPos>=1736) {
+window.cssXPos=0;
+}
+toMove=document.getElementById("imagestrip");
+toMove.style.backgroundPosition=-window.cssXPos+"px 0px";
+}
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46527902-1', 'ieeevr.org');
+  ga('send', 'pageview');
+
+</script>
+<!--[if lt IE 8]>
+<script src="IE8.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body onload="StartMove()">
+<div class="header">
+  <div class="headimg"><img src="images/logo.png"  alt=""/></div>
+  <div class="socialmedia">
+  <span class="facebook"><a href="https://www.facebook.com/ieeevr"><img src="images/facebook-01.png"></a></span>
+  <span class="twitter"><a href="https://twitter.com/ieeevr"><img src="images/twitter-01.png"></a></span>
+  </div>
+  <div class="mobileimagestrip"><img src="images/topbar-mini.jpg" /></div>
+  <div id="imagestrip">
+  </div>
+</div>
+<div class="nav">
+  <h2>Navigation</h2>
+  <div class="links">
+    <ul>
+      <li><a href="http://ieeevr.org/2014/index.html">Main</a></li>
+    </ul>
+    <div id="toggleExpand">Additional Links...</div>
+    <div id="mobileHidden">
+      <ul>
+        
+      </ul>
+      
+      <ul>
+        <li>
+        <a href="schedule.html">VR 2014 Schedule</a>
+          <ul>
+            <li><a href="speakers.html">Keynote &amp; Capstone</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="papers.html">Papers</a></li>
+            <li><a href="workshops/index.html">Workshops</a></li>
+            <li><a href="posters.html">Posters</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="panels.html">Panels</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="researchdemos.html">Research Demos</a></li>
+            <li><a href="doctoral.html">Doctoral Consortium Participants</a></li>
+            <li><a href="exhibitors-supporters.html">Exhibition</a></li>
+          </ul>
+        </li>
+        </ul>
+        <ul>
+        <li><a href="http://3dui.org/">3DUI 2014 Program</a></li>
+      </ul>
+      
+      <ul>
+        <li><a href="committees.html">Conference Committee</a></li>
+        <li><a href="programcommittee.html">Program Committee</a></li>
+        <li><a href="steering-committee.html">Steering Committee</a></li>
+    </ul>
+    <ul>
+    <li><a href="author.html">Author Information</a></li>
+        <li><a href="sessionchair.html">Session Chair Information</a></li>
+        </ul>
+    <ul>
+        <li><a href="register.html">Registration</a></li>
+        <li><a href="venue.html">Conference Venue and Accommodations</a></li>
+      </ul>
+      <ul>
+      <li><a href="2014_cfp_all.html">Calls for Participation</a></li>
+        <li><a href="workshops/index.html">Calls for Workshop Papers</a></li>
+        <li><a href="cfp_supporters.html">Calls for Exhibitors and Supporters</a></li>
+      </ul>
+    <ul>
+        <li><a href="past-conferences.html">Past Conferences</a></li>
+      </ul>
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="toplevel">
+  <div class="foreground">
+    <div class="maincontent"> <!-- InstanceBeginEditable name="MainContent" -->
+      <h1>Call for Tutorials</h1>
+
+<p>Tutorials provide an excellent starting point to topics in our field, both for novice researchers and experienced ones. We invite our community to submit proposals for full-day or half-day tutorials to be presented on Saturday March 29th, or Sunday March 30th, 2014. Please note that Workshops and the 3DUI Symposium will also be held on these two days.</p>
+
+<p>Proposed tutorials may be targeted at an introductory or advanced level, and should address topics of interest to the VR, mixed or augmented reality, or 3D user interface communities. Proposals will be evaluated based on their relevance to the conference topics and their suitability for presentation in a tutorial format, as well as the qualifications of the instructors. We will strive for a balance of topics in the tutorial program and also consider the potential for interest and attendance. Upon review of submitted proposals, suggestions may be provided by the Tutorials chairs to submitters on how to improve their submission. (See schedule below.)</p>
+
+<p>Suggested topics include but are not limited to:</p>
+<ul>
+<li>Introduction to VR/MR/3DUI or other relevant sub-areas</li>
+<li>How to foster better immersion</li>
+<li>Known and experimental Interaction techniques</li>
+<li>Tracking and sensor use in measuring presence</li>
+<li>Creating valid user studies</li>
+<li>Advances in VR and AR navigation</li>
+<li>Multi-user applications</li>
+<li>Developing new input devices for AR/MR/VR</li>
+<li>Multi-modal displays for AR/MR/VR</li>
+<li>New applications for shared simulation technology</li>
+<li>Serious and entertaining novel gaming applications in AR/MR/VR</li>
+</ul>
+
+<p>Proposals are welcome on topics that have been previously addressed; new approaches or insights are especially appreciated. Submissions should include a statement indicating how the proposal differs from recent tutorial presentations that may have approached a similar topic, or why it is important to offer it again. Topics in the list of suggested topics appropriate for paper submissions to the main conference are also welcome.</p>
+
+<p>Proposals for tutorials should be submitted electronically (MS Word, PDF, or text) and should include:</p>
+<ul>
+<li>A title for the tutorial</li>
+<li>Proposed length (full or half day)</li>
+<li>A brief description of the topics to be addressed, including time allotted to each (roughly 500 words)</li>
+<li>The technical level and intended audience</li>
+<li>The expected value to that audience</li>
+<li>The names, contact information and a short biography (roughly 200 words each) for the proposed instructors.</li>
+<li>Also include whether the tutorial (or similar one) has been delivered before (where and when), and if so, why it should be held again. This is required whether the proposers organized the previous tutorials themselves or the previous tutorials were taught by someone else.</li>
+</ul>
+
+<p>A fixed compensation of $400 will be provided to each accepted tutorial. You can let us know in which way you would like to divide such compensation, if there is more than one instructor.</p>
+
+<h2>Important Dates</h2>
+<ul>
+<li>Final submission deadline:                <b>Friday, November 22, 2013</b></li>
+<li>Initial Notification (with review suggestions):    <b>Friday, November 29, 2013</b></li>
+<li>Final Acceptance Notification:                <b>Wednesday, December 11, 2013</b></li>
+<li>Advance Program descriptions for web due:    <b>Monday, January 6, 2014</b></li>
+<li>Tutorial Days:                            <b>Saturday and Sunday, March 29 and 30, 2014</b></li>
+</ul>
+
+<p>Tutorial submissions must be submitted via email to the Tutorials Chairs at the address below.</p>
+<p>For more information, to inquire about a particular tutorial topic, or to submit a proposal, please contact the Tutorials Chairs:</p>
+<ul>
+<li>Betty Mohler, Max Planck Institute for Biological Cybernetics, Germany</li>
+<li>Tabitha Peck, Duke University, USA</li>
+<li>Pablo Figueroa, Universidad de los Andes, Colombia</li>
+</ul>
+
+<p><a href="mailto:tutorialschairs@ieeevr.org">tutorialschairs@ieeevr.org</a></p>
+      <!-- InstanceEndEditable --> </div>
+      <div class="footer">&copy; 2013-2014 IEEE Virtual Reality.  If there are problems with the website, please contact the <a href="mailto:webchairs@ieeevr.org">web chair</a></div>
+  </div>
+</div>
+<div class="rightbar">
+  <div class="rightcontentbar">
+  <h2>Exhibitors and Supporters</h2>
+    <p><a href="exhibitors-supporters.html">Information on Exhibitors and Supporters</a></p>
+    <h2 class="platinum">Platinum Level</h2>
+    <div class="sideimg"><a href="http://www.nsf.gov/"><img src="images/supporters/nsf.jpg"></a></div>
+    <h2 class="silver">Silver Level</h2>
+    <div class="sideimg"><a href="http://www.esi-group.com/"><img src="images/supporters/esi.png"></a></div>
+    <div class="sideimg"><a href="http://www.worldviz.com/"><img src="images/supporters/worldviz.png"></a></div>
+    <div class="sideimg"><a href="http://www.nvisinc.com/"><img src="images/supporters/nvis.png"></a></div>
+    <div class="sideimg"><a href="http://www.cyberglovesystems.com/"><img src="images/supporters/cyberglove.jpg"></a></div>
+    <h2 class="bronze">Bronze Level</h2>
+    <div class="sideimg"><a href="http://www.ar-tracking.com/home/"><img src="images/supporters/art.png"></a></div>
+    <div class="sideimg"><a href="http://vicon.com"><img src="images/supporters/viconlogo_blue_transparent.png"></a></div>
+    <div class="sideimg"><a href="http://www.polhemus.com"><img src="images/supporters/polhemus.png"></a></div>
+    <div class="sideimg"><a href="http://www.haption.com"><img src="images/supporters/haption.jpg"></a></div>
+    <div class="sideimg"><a href="http://www.imin-vr.com/"><img src="images/supporters/iminvr.png"></a></div>
+    <div class="sideimg"><a href="http://www.nvidia.com/"><img src="images/supporters/nvidia.png"></a></div>
+    <div class="sideimg"><a href="http://disney.com"><img src="images/supporters/walt_disney_imagineering.png"></a></div>
+    <div class="sideimg"><a href="http://www.bostonscientific.com/"><img src="images/supporters/bsc.png"></a></div>
+    <div class="sideimg"><a href="http://www.phasespace.com"><img src="images/supporters/phasespace.png"></a></div>
+    <div class="sideimg"><a href="http://sensics.com"><img src="images/supporters/sensics.png"></a></div>
+    <div class="spacer"></div>
+    
+    <h2 class="publishers">Publishers</h2>
+    <div class="sideimg"><a href="http://www.mitpressjournals.org/loi/pres"><img src="images/supporters/presence.png"></a></div>
+    <h2>Sponsors</h2>
+    <div class="sideimg"><a href="http://www.ieee.org"><img src="images/ieee-01.png" alt=""/></a></div>
+    <div class="sideimg"><a href="http://www.computer.org"><img src="images/computersociety-01.png" ></a></div>
+    <div class="sideimg"><img src="images/vgtc.png" alt="" /></div>
+  </div>
+  <div class="clearer"></div>
+</div>
+    
+
+<script language="javascript">
+$('#toggleExpand').click(function() {
+  $('#mobileHidden').slideToggle('normal', function() {
+    // Animation complete.
+  });
+});
+$(window).resize(function() {
+	if ($('#toggleExpand').css('display') == 'none') {
+		$('#mobileHidden').css('display', 'block');
+	}
+});
+</script>
+</body>
+<!-- InstanceEnd --></html>

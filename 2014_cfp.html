@@ -1,0 +1,236 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Base Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>VR2014 | Call For Papers</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.10.2.min.js"></script>
+<script language="javascript">
+function StartMove() {
+	setInterval("MoveBackGround()",100);
+	window.cssXPos=0;
+}
+function MoveBackGround () {
+window.cssXPos=window.cssXPos+1;
+if (window.cssXPos>=1736) {
+window.cssXPos=0;
+}
+toMove=document.getElementById("imagestrip");
+toMove.style.backgroundPosition=-window.cssXPos+"px 0px";
+}
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46527902-1', 'ieeevr.org');
+  ga('send', 'pageview');
+
+</script>
+<!--[if lt IE 8]>
+<script src="IE8.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body onload="StartMove()">
+<div class="header">
+  <div class="headimg"><img src="images/logo.png"  alt=""/></div>
+  <div class="socialmedia">
+  <span class="facebook"><a href="https://www.facebook.com/ieeevr"><img src="images/facebook-01.png"></a></span>
+  <span class="twitter"><a href="https://twitter.com/ieeevr"><img src="images/twitter-01.png"></a></span>
+  </div>
+  <div class="mobileimagestrip"><img src="images/topbar-mini.jpg" /></div>
+  <div id="imagestrip">
+  </div>
+</div>
+<div class="nav">
+  <h2>Navigation</h2>
+  <div class="links">
+    <ul>
+      <li><a href="http://ieeevr.org/2014/index.html">Main</a></li>
+    </ul>
+    <div id="toggleExpand">Additional Links...</div>
+    <div id="mobileHidden">
+      <ul>
+        
+      </ul>
+      
+      <ul>
+        <li>
+        <a href="schedule.html">VR 2014 Schedule</a>
+          <ul>
+            <li><a href="speakers.html">Keynote &amp; Capstone</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="papers.html">Papers</a></li>
+            <li><a href="workshops/index.html">Workshops</a></li>
+            <li><a href="posters.html">Posters</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="panels.html">Panels</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="researchdemos.html">Research Demos</a></li>
+            <li><a href="doctoral.html">Doctoral Consortium Participants</a></li>
+            <li><a href="exhibitors-supporters.html">Exhibition</a></li>
+          </ul>
+        </li>
+        </ul>
+        <ul>
+        <li><a href="http://3dui.org/">3DUI 2014 Program</a></li>
+      </ul>
+      
+      <ul>
+        <li><a href="committees.html">Conference Committee</a></li>
+        <li><a href="programcommittee.html">Program Committee</a></li>
+        <li><a href="steering-committee.html">Steering Committee</a></li>
+    </ul>
+    <ul>
+    <li><a href="author.html">Author Information</a></li>
+        <li><a href="sessionchair.html">Session Chair Information</a></li>
+        </ul>
+    <ul>
+        <li><a href="register.html">Registration</a></li>
+        <li><a href="venue.html">Conference Venue and Accommodations</a></li>
+      </ul>
+      <ul>
+      <li><a href="2014_cfp_all.html">Calls for Participation</a></li>
+        <li><a href="workshops/index.html">Calls for Workshop Papers</a></li>
+        <li><a href="cfp_supporters.html">Calls for Exhibitors and Supporters</a></li>
+      </ul>
+    <ul>
+        <li><a href="past-conferences.html">Past Conferences</a></li>
+      </ul>
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="toplevel">
+  <div class="foreground">
+    <div class="maincontent"> <!-- InstanceBeginEditable name="MainContent" -->
+      <h1>2014 Call for Papers</h1>
+      <p>IEEE VR 2014 seeks original, high-quality papers in all areas related to virtual reality, including augmented reality, mixed reality, and 3D user interfaces. Each paper should be classifiable as mainly covering research, applications, or systems, using the following guidelines for each:</p>
+		<ul class="pubtypes">
+		<li>Research papers should describe results that contribute to advances in state-of-the-art software, hardware, algorithms, interaction, or human-factors.</li>
+		<li>Application papers should explain how the authors built upon existing ideas and applied them to solve an interesting problem in a novel way. Each paper should include an evaluation of the success of the use of VR/AR/MR in the given application domain.</li>
+		<li>System papers should indicate how the implementers integrated known techniques and technologies to produce an effective system, along with any lessons learned in the process. Each paper should include an evaluation of the system, including benchmarking that was performed (e.g., latency or frame-rate).</li>
+	</ul>
+	<p>Topics include:</p>
+	<ul>
+		<li>Immersive gaming</li>
+		<li>3D interaction for VR/AR/MR</li>
+		<li>Input devices for VR/AR/MR</li>
+		<li>Haptics, audio, and other non-visual interfaces</li>
+		<li>VR systems and toolkits</li>
+		<li>Augmented and mixed reality</li>
+		<li>Computer graphics techniques for VR/AR/MR</li>
+		<li>Advanced display technology</li>
+		<li>Immersive projection technology</li>
+		<li>Multi-user and distributed VR/AR/MR</li>
+		<li>Serious games</li>
+		<li>Tracking and sensing</li>
+		<li>Modeling and simulation</li>
+		<li>User studies and evaluation</li>
+		<li>Perception, presence, and cognition</li>
+		<li>Navigation</li>
+		<li>Applications of VR/AR/MR</li>
+		<li>Teleoperation and telepresence</li>
+		
+	</ul>
+		<p>This year, we will continue the process of having all accepted long papers published in a special issue of <i>IEEE Transactions on Visualization and Computer Graphics (TVCG)</i>. To meet TVCG standards, long papers will undergo a two-stage review process (see <a href="#deadlines">sumbission deadlines</a> below). Authors of long papers that are determined to be acceptable with minor revisions during a first review cycle will be invited to submit a revised version for a second review cycle. Only long papers that are accepted in this second review cycle will appear in the journal issue and be presented at the conference.</p>
+		
+		<p>Short papers can cover preliminary studies, prototype applications, or initial implementations. Short papers will be published separately in the standard conference proceedings.</p>
+		<p>The primary difference between short and long papers is in the size of their contributions and <em>NOT</em> in the importance/impact of their contributions. To assure this, short and long papers will be treated as separate tracks and will be accepted or rejected according to the merit of their contributions. Rejected long papers will <em>NOT</em> be considered for acceptance as short papers, unless the reviewers unanimously feel this is the right decision, and rewriting is determined to be doable in the time available. Consequently, authors should carefully consider the category for each submitted paper.</p>
+		
+		<p>Note that an abstract must be uploaded prior to the paper. This facilitates assigning reviewers, as the review process is on a tight schedule.</p>
+		<p>All paper submissions must be in English. Long papers must not exceed ten (10) pages in length, with the caveat that the standard is eight (8) pages. If the reviewers find a paper overly long for the size of its contribution, they may ask for it to be shortened it if it is accepted. Short papers must not exceed six (6) pages in length. Both long and short papers should be formatted using the IEEE Computer Society format described at <a href="http://www.cs.sfu.ca/~vis/Track/vr-menu.html" target="_blank">http://www.cs.sfu.ca/~vis/Track/vr-menu.html</a>.  For index terms, please use the descriptors from the ACM Computing Classification System, located at <a href="http://www.acm.org/class" target="_blank">http://www.acm.org/class</a>.</p>
+		
+		<p>IEEE VR uses a double-blind review process, meaning both the authors and the reviewers remain anonymous to each other. Submissions (including citations and optional videos) should not contain information that unnecessarily identifies the authors, their institutions, or their places of work. Relevant previous work by the authors should be cited in the third person to preserve anonymity. In order to fully explain the relationship between the submitted paper and relevant previous work by the authors, authors may additionally upload previous papers as well as a non-anonymous letter of explanation; these materials will only been seen by the primary reviewer.  All papers must be submitted electronically.</p>
+		
+		<p>Authors may also submit videos to aid the program committee in reviewing their submissions. Videos must be submitted according to the instructions at the conference website. Videos submitted with papers will automatically be considered for possible inclusion in the video proceedings (video submissions may also be made independently, as described in the "Call for Videos"). When submitted as supporting material, videos must be free of identifying information. If accepted for the video proceedings, a revised version will be requested.</p>
+
+		<p>Paper submissions must not have been published previously. A paper is considered to have been published previously if it has appeared in a peer-reviewed journal, magazine, book, or meeting proceedings that is reliably and permanently available afterward in print or electronic form to non-attendees, regardless of the language of that publication. A paper identical or substantially similar in content (in its entirety or in part) to one submitted to VR should not be simultaneously under consideration for another conference or journal during the entire VR review process (from the submission deadline until notifications of decisions are emailed to authors).</p>
+        
+        <p>Further information on the reviewing process can be found in the <a href="reviewguidelines.html">Reviewing Guidelines</a></p>
+		
+		<h2><a name="deadlines">DEADLINES:</a></h2>
+		
+		<p>Each deadline is at 23:59 GMT/UTC on the stated day, no matter where the submitter is located.</p>
+		
+		<ul>
+			<li>Long &amp; Short Paper abstracts due (REQUIRED): <b>September 5, 2013</b></li>
+			<li>Long &amp; Short Paper submissions due: <b>September 12, 2013</b></li>
+			<li>Notification of results of first review cycle: <b>November 4, 2013</b></li>
+			<li>Revised paper submission due for second review cycle (REQUIRED FOR LONG PAPERS): <b>December 7, 2013</b></li>
+			<li>Final notification for second review cycle: <b>December 21, 2013</b></li>
+			<li>Camera-ready material due (to be published in TVCG for long papers and in a standard conference proceedings for short papers): <b>January 10, 2014</b>.</li>
+			</ul>
+		<p><b>The submission deadlines will be strictly enforced.</b></p>
+		<p>Paper abstracts and complete papers must be submitted through the <a href="https://precisionconference.com/~vr/">online submission system.</a></p>
+		
+		<p>For more information, please contact the Program Chairs: programchairs [at] ieeevr.org</p>
+		<ul>
+			  <li>Doug A. Bowman, Virginia Tech., USA</li>
+			  <li>Sabine Coquillart, INRIA, France</li>
+			  <li>Kiyoshi Kiyokawa, Osaka University, Japan</li>
+			 <li>Edward Swan II, Mississippi State University</li>
+			</ul><!-- InstanceEndEditable --> </div>
+      <div class="footer">&copy; 2013-2014 IEEE Virtual Reality.  If there are problems with the website, please contact the <a href="mailto:webchairs@ieeevr.org">web chair</a></div>
+  </div>
+</div>
+<div class="rightbar">
+  <div class="rightcontentbar">
+  <h2>Exhibitors and Supporters</h2>
+    <p><a href="exhibitors-supporters.html">Information on Exhibitors and Supporters</a></p>
+    <h2 class="platinum">Platinum Level</h2>
+    <div class="sideimg"><a href="http://www.nsf.gov/"><img src="images/supporters/nsf.jpg"></a></div>
+    <h2 class="silver">Silver Level</h2>
+    <div class="sideimg"><a href="http://www.esi-group.com/"><img src="images/supporters/esi.png"></a></div>
+    <div class="sideimg"><a href="http://www.worldviz.com/"><img src="images/supporters/worldviz.png"></a></div>
+    <div class="sideimg"><a href="http://www.nvisinc.com/"><img src="images/supporters/nvis.png"></a></div>
+    <div class="sideimg"><a href="http://www.cyberglovesystems.com/"><img src="images/supporters/cyberglove.jpg"></a></div>
+    <h2 class="bronze">Bronze Level</h2>
+    <div class="sideimg"><a href="http://www.ar-tracking.com/home/"><img src="images/supporters/art.png"></a></div>
+    <div class="sideimg"><a href="http://vicon.com"><img src="images/supporters/viconlogo_blue_transparent.png"></a></div>
+    <div class="sideimg"><a href="http://www.polhemus.com"><img src="images/supporters/polhemus.png"></a></div>
+    <div class="sideimg"><a href="http://www.haption.com"><img src="images/supporters/haption.jpg"></a></div>
+    <div class="sideimg"><a href="http://www.imin-vr.com/"><img src="images/supporters/iminvr.png"></a></div>
+    <div class="sideimg"><a href="http://www.nvidia.com/"><img src="images/supporters/nvidia.png"></a></div>
+    <div class="sideimg"><a href="http://disney.com"><img src="images/supporters/walt_disney_imagineering.png"></a></div>
+    <div class="sideimg"><a href="http://www.bostonscientific.com/"><img src="images/supporters/bsc.png"></a></div>
+    <div class="sideimg"><a href="http://www.phasespace.com"><img src="images/supporters/phasespace.png"></a></div>
+    <div class="sideimg"><a href="http://sensics.com"><img src="images/supporters/sensics.png"></a></div>
+    <div class="spacer"></div>
+    
+    <h2 class="publishers">Publishers</h2>
+    <div class="sideimg"><a href="http://www.mitpressjournals.org/loi/pres"><img src="images/supporters/presence.png"></a></div>
+    <h2>Sponsors</h2>
+    <div class="sideimg"><a href="http://www.ieee.org"><img src="images/ieee-01.png" alt=""/></a></div>
+    <div class="sideimg"><a href="http://www.computer.org"><img src="images/computersociety-01.png" ></a></div>
+    <div class="sideimg"><img src="images/vgtc.png" alt="" /></div>
+  </div>
+  <div class="clearer"></div>
+</div>
+    
+
+<script language="javascript">
+$('#toggleExpand').click(function() {
+  $('#mobileHidden').slideToggle('normal', function() {
+    // Animation complete.
+  });
+});
+$(window).resize(function() {
+	if ($('#toggleExpand').css('display') == 'none') {
+		$('#mobileHidden').css('display', 'block');
+	}
+});
+</script>
+</body>
+<!-- InstanceEnd --></html>

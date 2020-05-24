@@ -1,0 +1,191 @@
+<!doctype html>
+<html><!-- InstanceBegin template="/Templates/Base Template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>VR2014 | Tutorials</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.10.2.min.js"></script>
+<script language="javascript">
+function StartMove() {
+	setInterval("MoveBackGround()",100);
+	window.cssXPos=0;
+}
+function MoveBackGround () {
+window.cssXPos=window.cssXPos+1;
+if (window.cssXPos>=1736) {
+window.cssXPos=0;
+}
+toMove=document.getElementById("imagestrip");
+toMove.style.backgroundPosition=-window.cssXPos+"px 0px";
+}
+</script>
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46527902-1', 'ieeevr.org');
+  ga('send', 'pageview');
+
+</script>
+<!--[if lt IE 8]>
+<script src="IE8.js" type="text/javascript"></script>
+<![endif]-->
+</head>
+
+<body onload="StartMove()">
+<div class="header">
+  <div class="headimg"><img src="images/logo.png"  alt=""/></div>
+  <div class="socialmedia">
+  <span class="facebook"><a href="https://www.facebook.com/ieeevr"><img src="images/facebook-01.png"></a></span>
+  <span class="twitter"><a href="https://twitter.com/ieeevr"><img src="images/twitter-01.png"></a></span>
+  </div>
+  <div class="mobileimagestrip"><img src="images/topbar-mini.jpg" /></div>
+  <div id="imagestrip">
+  </div>
+</div>
+<div class="nav">
+  <h2>Navigation</h2>
+  <div class="links">
+    <ul>
+      <li><a href="http://ieeevr.org/2014/index.html">Main</a></li>
+    </ul>
+    <div id="toggleExpand">Additional Links...</div>
+    <div id="mobileHidden">
+      <ul>
+        
+      </ul>
+      
+      <ul>
+        <li>
+        <a href="schedule.html">VR 2014 Schedule</a>
+          <ul>
+            <li><a href="speakers.html">Keynote &amp; Capstone</a></li>
+            <li><a href="awards.html">Awards</a></li>
+            <li><a href="papers.html">Papers</a></li>
+            <li><a href="workshops/index.html">Workshops</a></li>
+            <li><a href="posters.html">Posters</a></li>
+            <li><a href="tutorials.html">Tutorials</a></li>
+            <li><a href="panels.html">Panels</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="researchdemos.html">Research Demos</a></li>
+            <li><a href="doctoral.html">Doctoral Consortium Participants</a></li>
+            <li><a href="exhibitors-supporters.html">Exhibition</a></li>
+          </ul>
+        </li>
+        </ul>
+        <ul>
+        <li><a href="http://3dui.org/">3DUI 2014 Program</a></li>
+      </ul>
+      
+      <ul>
+        <li><a href="committees.html">Conference Committee</a></li>
+        <li><a href="programcommittee.html">Program Committee</a></li>
+        <li><a href="steering-committee.html">Steering Committee</a></li>
+    </ul>
+    <ul>
+    <li><a href="author.html">Author Information</a></li>
+        <li><a href="sessionchair.html">Session Chair Information</a></li>
+        </ul>
+    <ul>
+        <li><a href="register.html">Registration</a></li>
+        <li><a href="venue.html">Conference Venue and Accommodations</a></li>
+      </ul>
+      <ul>
+      <li><a href="2014_cfp_all.html">Calls for Participation</a></li>
+        <li><a href="workshops/index.html">Calls for Workshop Papers</a></li>
+        <li><a href="cfp_supporters.html">Calls for Exhibitors and Supporters</a></li>
+      </ul>
+    <ul>
+        <li><a href="past-conferences.html">Past Conferences</a></li>
+      </ul>
+      <ul>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="toplevel">
+  <div class="foreground">
+    <div class="maincontent"> <!-- InstanceBeginEditable name="MainContent" -->
+      <h1>Tutorials</h1>
+      <p>Please fill out <a href="https://docs.google.com/forms/d/10upRDpDHC-4H1fCiKnpovTssOug0eRiHXd22QSlNczY/viewform">a short survey</a> for each tutorial you attend.  Thank you for your feedback.</p>
+      <ul>
+      <li><a href="#tutorial1">Developing Virtual Reality Applications with Unity</a></li>
+      <li><a href="#tutorial2">Quantitative and Qualitative Methods for Human-Subject Experiments in Virtual and Augmented Reality</a></li>
+      <li><a href="#tutorial3">Experimental Game Design with the Oculus Rift</a></li>
+      </ul>
+      <h2><a name="tutorial1"></a>Developing Virtual Reality Applications with Unity</h2>
+      <p><b>Abstract:</b> This tutorial will provide an introduction to Unity (<a href="http://www.unity3D.com">http://www.unity3D.com</a>) and several VR components that are designed to work with Unity. These VR components can be used in isolation or pieced together to provide fully immersive VR experiences.</p>
+<p>Unity is a feature rich multi-platform game engine for the creation of interactive 3D content. It includes an intuitive interface while at the same time allowing low-level access for developers. Thousands of assets provided by other content creators can be reused to quickly develop immersive experiences. Because of its intuitive interface, well designed architecture, and ability to easily reuse assets, 3D software can be developed in a fraction of time compared to traditional development.</p>
+<p>Consumer-level virtual-reality hardware combined with Unity have recently empowered hobbyists, professionals, and academics to quickly create virtual reality applications. Because of Unity’s widespread use and ease of use, several virtual reality companies now fully support Unity. During this tutorial, participants will learn how to quickly build virtual reality applications from some of the leaders of Unity virtual reality development. Attendees will gain an understanding of how to use multiple VR components with Unity and will have enough knowledge to start building VR applications using Unity by the end of the tutorial.</p>
+<p><a href="pdfs/Unity_Virtual_Reality.pdf">Full Tutorial Description</a></p>
+
+<h2><a name="tutorial2"></a>Quantitative and Qualitative Methods for Human-Subject Experiments in Virtual and Augmented Reality</h2>
+<p><b>Abstract:</b> This tutorial is for researchers and engineers, working in the field of Virtual and Augmented Reality, who wish to conduct user-based experiments and/or evaluations for assessing usability. We propose a full-day tutorial presenting both quantitative and qualitative approaches to conducting human-subject experiments. It will cover (1) the basic principles of experimental design and analysis, with an emphasis on human-subject experiments in AR (Swan), and (2) qualitative studies (e.g., formative evaluation methods) for assessing and improving AR user interfaces and user interaction along with lessons learned from conducting many user-based studies (Gabbard).</p>
+<p>Swan, Gabbard, and other co-presenters have taught pre-cursor versions of this tutorial 11 previous times at IEEE Virtual Reality, IEEE Visualization, and ISMAR. This tutorial was most recently given at ISMAR 2012, where we included updated examples from our research and further expanded upon qualitative approaches for assessing usability and lessons learned from conducting studies. We both have current, active AR human-subject research projects, and if this tutorial is accepted to be presented at VR 2014, we will discuss some of these projects as case studies.</p>
+<p><a href="pdfs/Quantitative_and_Qualitative Methods.pdf">Full Tutorial Description</a></p>
+
+<h2><a name="tutorial3"></a>Experimental Game Design with the Oculus Rift</h2>
+<p>Over the course of 16 weeks four graduate students at Carnegie Mellon University worked together to conduct 14 experiments and create 6 prototypes for the Oculus Rift Developers Kit. Their goal was to make experiences that would change how people would perceive virtual reality games. This tutorial is a look at how to approach the Oculus Rift in general, and what you should do if you want to push the boundaries of virtual reality game design.</p>
+<p><a href="pdfs/Oculus_Rift_Experimental_Games.pdf">Full Tutorial Description</a></p>
+      <!-- InstanceEndEditable --> </div>
+      <div class="footer">&copy; 2013-2014 IEEE Virtual Reality.  If there are problems with the website, please contact the <a href="mailto:webchairs@ieeevr.org">web chair</a></div>
+  </div>
+</div>
+<div class="rightbar">
+  <div class="rightcontentbar">
+  <h2>Exhibitors and Supporters</h2>
+    <p><a href="exhibitors-supporters.html">Information on Exhibitors and Supporters</a></p>
+    <h2 class="platinum">Platinum Level</h2>
+    <div class="sideimg"><a href="http://www.nsf.gov/"><img src="images/supporters/nsf.jpg"></a></div>
+    <h2 class="silver">Silver Level</h2>
+    <div class="sideimg"><a href="http://www.esi-group.com/"><img src="images/supporters/esi.png"></a></div>
+    <div class="sideimg"><a href="http://www.worldviz.com/"><img src="images/supporters/worldviz.png"></a></div>
+    <div class="sideimg"><a href="http://www.nvisinc.com/"><img src="images/supporters/nvis.png"></a></div>
+    <div class="sideimg"><a href="http://www.cyberglovesystems.com/"><img src="images/supporters/cyberglove.jpg"></a></div>
+    <h2 class="bronze">Bronze Level</h2>
+    <div class="sideimg"><a href="http://www.ar-tracking.com/home/"><img src="images/supporters/art.png"></a></div>
+    <div class="sideimg"><a href="http://vicon.com"><img src="images/supporters/viconlogo_blue_transparent.png"></a></div>
+    <div class="sideimg"><a href="http://www.polhemus.com"><img src="images/supporters/polhemus.png"></a></div>
+    <div class="sideimg"><a href="http://www.haption.com"><img src="images/supporters/haption.jpg"></a></div>
+    <div class="sideimg"><a href="http://www.imin-vr.com/"><img src="images/supporters/iminvr.png"></a></div>
+    <div class="sideimg"><a href="http://www.nvidia.com/"><img src="images/supporters/nvidia.png"></a></div>
+    <div class="sideimg"><a href="http://disney.com"><img src="images/supporters/walt_disney_imagineering.png"></a></div>
+    <div class="sideimg"><a href="http://www.bostonscientific.com/"><img src="images/supporters/bsc.png"></a></div>
+    <div class="sideimg"><a href="http://www.phasespace.com"><img src="images/supporters/phasespace.png"></a></div>
+    <div class="sideimg"><a href="http://sensics.com"><img src="images/supporters/sensics.png"></a></div>
+    <div class="spacer"></div>
+    
+    <h2 class="publishers">Publishers</h2>
+    <div class="sideimg"><a href="http://www.mitpressjournals.org/loi/pres"><img src="images/supporters/presence.png"></a></div>
+    <h2>Sponsors</h2>
+    <div class="sideimg"><a href="http://www.ieee.org"><img src="images/ieee-01.png" alt=""/></a></div>
+    <div class="sideimg"><a href="http://www.computer.org"><img src="images/computersociety-01.png" ></a></div>
+    <div class="sideimg"><img src="images/vgtc.png" alt="" /></div>
+  </div>
+  <div class="clearer"></div>
+</div>
+    
+
+<script language="javascript">
+$('#toggleExpand').click(function() {
+  $('#mobileHidden').slideToggle('normal', function() {
+    // Animation complete.
+  });
+});
+$(window).resize(function() {
+	if ($('#toggleExpand').css('display') == 'none') {
+		$('#mobileHidden').css('display', 'block');
+	}
+});
+</script>
+</body>
+<!-- InstanceEnd --></html>
